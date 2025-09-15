@@ -83,8 +83,6 @@ public class UBNS_TC2025_Mockmart_CheckoutTest {
 		String cartTitleTxt = driver.findElement(By.xpath("//h2[@class='title has-text-centered']")).getText();
 		Assert.assertEquals(cartTitleTxt, "Shopping Cart");
 
-		// div[contains(@class, 'table-container')]//tbody/tr[1]/td[1]
-
 		String productNameInCartTable = driver
 				.findElement(By.xpath("//div[contains(@class, 'table-container')]//tbody/tr[1]/td[1]")).getText();
 
