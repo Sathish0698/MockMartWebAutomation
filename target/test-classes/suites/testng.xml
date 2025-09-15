@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MockMart Automation Suite">
+
+	<listeners>
+		<listener class-name="com.mockmart.listeners.TestListener" />
+	</listeners>
+
+	<test name="Test">
+		<classes>
+			<class name="com.mockmart.tests.UBNS_TC2026_Mockmart_LoginTest" />
+			<!--<class name="com.mockmart.tests.UBNS_TC2028_Mockmart_CartTest" />
+			<class name="com.mockmart.tests.UBNS_TC2027_Mockmart_ProductTest" />
+			<class name="com.mockmart.tests.UBNS_TC2025_Mockmart_CheckoutTest" />-->
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

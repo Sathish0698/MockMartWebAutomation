@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-14T07:47:53 IST" name="MockMart Automation Suite" finished-at="2025-09-14T07:48:14 IST" duration-ms="20605">
+    <groups>
+    </groups>
+    <test started-at="2025-09-14T07:47:53 IST" name="Test" finished-at="2025-09-14T07:48:14 IST" duration-ms="20605">
+      <class name="com.mockmart.tests.UBNS_TC2026_Mockmart_LoginTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.mockmart.tests.UBNS_TC2026_Mockmart_LoginTest@6f1de4c7]" started-at="2025-09-14T07:47:53 IST" name="launchApplication" finished-at="2025-09-14T07:47:59 IST" duration-ms="5878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="tC0002_validateLoginWithValidCreds()[pri:1, instance:com.mockmart.tests.UBNS_TC2026_Mockmart_LoginTest@6f1de4c7]" started-at="2025-09-14T07:47:59 IST" name="tC0002_validateLoginWithValidCreds" finished-at="2025-09-14T07:48:01 IST" duration-ms="1409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC0002_validateLoginWithValidCreds -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mockmart.tests.UBNS_TC2026_Mockmart_LoginTest@6f1de4c7]" started-at="2025-09-14T07:48:01 IST" name="tearDown" finished-at="2025-09-14T07:48:01 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.mockmart.tests.UBNS_TC2026_Mockmart_LoginTest@6f1de4c7]" started-at="2025-09-14T07:48:01 IST" name="launchApplication" finished-at="2025-09-14T07:48:04 IST" duration-ms="3052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="tC0001_E2E()[pri:2, instance:com.mockmart.tests.UBNS_TC2026_Mockmart_LoginTest@6f1de4c7]" started-at="2025-09-14T07:48:04 IST" name="tC0001_E2E" finished-at="2025-09-14T07:48:08 IST" duration-ms="4030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC0001_E2E -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mockmart.tests.UBNS_TC2026_Mockmart_LoginTest@6f1de4c7]" started-at="2025-09-14T07:48:08 IST" name="tearDown" finished-at="2025-09-14T07:48:08 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.mockmart.tests.UBNS_TC2026_Mockmart_LoginTest@6f1de4c7]" started-at="2025-09-14T07:48:08 IST" name="launchApplication" finished-at="2025-09-14T07:48:11 IST" duration-ms="2894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="tC0003_validateLoginWithInValidCreds()[pri:3, instance:com.mockmart.tests.UBNS_TC2026_Mockmart_LoginTest@6f1de4c7]" started-at="2025-09-14T07:48:11 IST" name="tC0003_validateLoginWithInValidCreds" finished-at="2025-09-14T07:48:13 IST" duration-ms="2379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC0003_validateLoginWithInValidCreds -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mockmart.tests.UBNS_TC2026_Mockmart_LoginTest@6f1de4c7]" started-at="2025-09-14T07:48:13 IST" name="tearDown" finished-at="2025-09-14T07:48:14 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mockmart.tests.UBNS_TC2026_Mockmart_LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- MockMart Automation Suite -->
+</testng-results>
