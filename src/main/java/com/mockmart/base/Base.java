@@ -12,7 +12,11 @@ public class Base {
 
 	@BeforeMethod
 	public void launchApplication() throws Exception {
-		String browserName = new configReader().getProperty("browser");
+
+		String browserName = System.getProperty("browser") != null ? System.getProperty("browser")
+				: new configReader().getProperty("browser");
+
+		// String browserName = new configReader().getProperty("browser");
 		DriverFactory.setWebDriver(browserName);
 		landingPage = new LandingPage(DriverFactory.getDriver());
 		landingPage.OpenTheApplication();
