@@ -8,7 +8,9 @@
     <classes>
       <class name="com.mockmart.tests.UBNS_TC2026_Mockmart_LoginTest">
         <methods>
+          <include name="tC0001_E2E"/>
           <include name="tearDown"/>
+          <include name="tC0002_validateLoginWithValidCreds"/>
           <include name="tC0003_validateLoginWithInValidCreds"/>
           <include name="launchApplication"/>
         </methods>
